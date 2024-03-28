@@ -1,0 +1,19 @@
+/* Giới thiệu một số hàm built-in
+1. Alert: Hàm bật lên popup
+var fullName= 'Luong Thu Hien';
+alert(fullName); 
+2. Console
+var fullName='Luong Thu Hien';
+console.log(fullName);
+3. Confirm: Hàm bật lên popup 
+confirm('Xác nhận đủ tuổi');
+4. Prompt: Hàm bật lên popup, có cancel và ok
+prompt('Xác nhận đủ tuổi');
+5. Set timeout: chạy 1 lần 1 đoạn code sau 1 khoảng tg
+setTimeout(function() {
+    alert('Thông báo chạy hiện lên sau 1s')
+},1000)
+6. Set interval: chạy liên tục lặp đi lặp lại 1 đoạn code sau 1 khoảng thời gian
+setInterval(function() {
+   console.log('Day la log' +Math.random())
+},1000);

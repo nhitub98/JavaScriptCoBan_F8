@@ -1,0 +1,1 @@
+prompt('Xác nhận đủ tuổi');
