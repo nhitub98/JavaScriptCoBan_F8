@@ -1,0 +1,40 @@
+//Toán tử ++ và --
+//Prefix và Postfix
+//Prefix: tiền tố cộng thẳng lên 1 và trả về giá trị sau khi cộng
+//Postfix: hậu tố trả về biến copy
+//
+var a=6;
+//Việc 1: +1 cho a, a=a+1 => a=7
+// Việc 2: Trả về a sau khi được +1
+console.log(++a); 
+
+var a=6;
+//Việc 1: 'a copy', 'a copy'= 6
+// Việc 2: trừ 1 của a, a=a-1=>a=5
+//Việc 3: Trả về biến 'a copy'
+var output= a--;
+console.log('output:',output);
+console.log('a:',a);
+
+var a=6;
+//Việc 1: 'a copy', 'a copy'= 6
+// Việc 2: cộng 1 của a, a=a+1=>a=7
+//Việc 3: Trả về biến 'a copy'
+var output= a--;
+console.log('output:',output);
+console.log('a:',a);
+
+var number=6;
+var output= number++ + --number;
+//number++ trả về biến coppy 6
+//--number trả về 6 vì thực hiện 7-1=6 => 6+6=12
+console.log('output:',output);
+
+
+var number=6;
+var output= ++number*2 - number-- *2;
+//7*2 - 7*2
+console.log('output:',output);
+
+//Toán tử ++ hoặc -- khi được dùng làm tiền tố (++a) sẽ thực hiện phép toán + hoặc - 1 đơn vị trước rồi mới trả về giá trị.
+Còn khi được sử dụng làm hậu tố (a--) thì sẽ trả về giá trị trước rồi mới thực hiện + hoặc -.

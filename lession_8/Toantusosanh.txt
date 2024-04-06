@@ -1,0 +1,15 @@
+//Toán tử so sánh
+Toán tử
+== --> Bằng
+!= --> Không Bằng
+> --> Lớn hơn
+>= --> Lớn hơn hoặc Bằng
+<= --> Nhỏ hơn hoặc bằng
+
+var a=1;
+var b=2;
+if(a<=b){
+    console.log('Dieu kien dung!');
+}else{
+    console.log('Dieu kien sai!');
+}

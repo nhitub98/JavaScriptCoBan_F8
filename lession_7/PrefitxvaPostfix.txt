@@ -1,0 +1,9 @@
+//Toán tử chuỗi- String operator
+var firstName= 'Son'
+var lastName = 'Dang';
+console.log(firstName+ ' ' + lastName);
+
+
+var firstName= 'Son'
+var name= name + ' Dang'; //hoặc name+='Dang;
+console.log(name);

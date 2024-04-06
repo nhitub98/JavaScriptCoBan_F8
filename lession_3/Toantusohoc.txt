@@ -1,0 +1,25 @@
+/* Toán tử số học
+- Cộng:
+var a=1;
+var b=2;
+var c=a+b;
+console.log(c);
+- Lũy thừa
+var a=1;
+var b=2;
+var c = a **b;
+console.log(c);
+- Chia lấy số dư:
+var a=8;
+var b=5;
+var c= a%b;
+console.log(c);
+- Tăng 1 giá trị số
+var a=5;
+a++;
+console.log(a);
+- Giảm 1 giá trị số
+var a=5;
+a--;
+console.log(a);
+*/

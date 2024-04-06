@@ -1,0 +1,24 @@
+/** If- else **/
+var isSuccess=1<2;
+if(isSuccess){
+        console.log('Dieu kien dung');
+}else{
+        console.log('Dieu kien sai');
+}
+
+
+/** CÁC GIÁ TRỊ DƯỚI ĐÂY KHI CONVERT SANG BOOLEAN SẼ THÀNH FALSE **/
+* 0
+* false
+** ''- ""
+** undefined
+**NaN
+*null
+*/
+
+var fullName='Son Dang';
+if(fullName){
+        console.log('Dieu kien dung');
+}else{
+        console.log('Dieu kien sai');
+}

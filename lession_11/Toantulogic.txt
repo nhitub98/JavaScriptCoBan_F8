@@ -1,0 +1,23 @@
+/*Toán tử logic*/
+*1. && -And
+var a=1;
+varb=2;
+var c=3;
+if(a>0 && b>0){
+        console.log('Dieu kien dung');
+}
+*2. || - Or  
+var a=1;
+varb=2;
+var c=3;
+if(a<0 || b<0 || c<0){
+        console.log('Dieu kien dung');
+}
+*3. !- Not
+var a=1;
+varb=2;
+var c=3;
+if(!(a<0)){
+        console.log('Dieu kien dung');
+}
+*/
